@@ -1,0 +1,18 @@
+head
+    base(href="/")
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    if authorised    
+        title TodoList · #{user}
+    else 
+        title TodoList
+    link(rel="shortcut icon" href="images/favicon.ico" type="image/x-icon")
+    link(rel="icon" href="images/favicon.ico" type="image/x-icon")
+    link(rel="stylesheet", href="libs/bootstrap4/css/bootstrap.min.css")
+    link(rel="stylesheet", href="libs/bootstrap4/css/bootstrap-grid.min.css")
+    link(rel="stylesheet", href="css/style.css")
+    script(src="libs/jquery/jquery.min.js")
+    script(src="libs/bootstrap4/js/bootstrap.min.js")
+    script(src="libs/angularjs/angular.min.js")
+    script(src="libs/angularjs/angular-ui-router.min.js")

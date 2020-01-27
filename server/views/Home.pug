@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+html(lang="en" ng-app="app" ng-cloak)
+
+    include includes/_head.pug
+
+    body
+
+        include includes/_navigation.pug
+
+        div(class="container-fluid")
+
+            br
+
+            div(class="col-sm-6 col-md-6 col-lg-6 mx-auto")
+                
+                include includes/_input.pug
+
+                ul(class="list-group" ng-controller="taskListController")
+                    task-items
+
+        include includes/_scripts.pug

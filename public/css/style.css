@@ -1,0 +1,7 @@
+.line-through {
+    font-style: italic;
+    text-decoration: line-through;
+}
+.cursor {
+    cursor: pointer;
+}
