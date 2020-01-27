@@ -5,3 +5,7 @@
 .cursor {
     cursor: pointer;
 }
+
+.pl {
+    padding-left: 12px;
+}
