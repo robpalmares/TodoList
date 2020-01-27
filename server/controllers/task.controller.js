@@ -8,7 +8,6 @@ router.route('/tasks')
         })
     })
     .post(function(req, res, next) {
-        console.log('request body!',req.body)
         if (req.body.task) {
             Task.create({ task: req.body.task }, function(err, task) {
                 if(err) return next(err);
