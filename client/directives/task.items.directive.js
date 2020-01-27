@@ -8,7 +8,8 @@ angular.module('app')
                     </button>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="checkbox" id="taskCheckbox" ng-model="done">
-                        <label class="form-check-label" for="taskCheckbox" ng-class="{'line-through': done, 'text-muted': done}">
+                        
+                        <label class="form-check-label pl" for="taskCheckbox" ng-class="{'line-through': done, 'text-muted': done}">
                             {{task.task}}
                         </label>
                     </div>
