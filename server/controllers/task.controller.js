@@ -14,7 +14,7 @@ router.route('/tasks')
                 res.redirect('/');
             })
         } else {
-            console.error("Bad Request Error: No request body found!");
+            console.error("Bad Request: No request body found!");
             return next();
         }
     })
