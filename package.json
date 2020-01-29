@@ -9,9 +9,6 @@
   "author": "obet",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
-    "gulp": "^4.0.2",
-    "gulp-livereload": "^4.0.2",
     "nodemon": "^2.0.2"
   },
   "dependencies": {
