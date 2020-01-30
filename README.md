@@ -1,5 +1,5 @@
 # TodoList
-> A simple ToDo List that demonstrates an effectively use of MEAN stack
+> A simple application developed to make practical use of MEAN stack
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
