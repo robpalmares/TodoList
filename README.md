@@ -5,7 +5,7 @@
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites 
-What thing(s) you need to install the software 
+What thing(s) you need to install
 * NPM (node package manager)
 
 ### Installing
