@@ -14,7 +14,7 @@ A step by steps guides to get a development environment up and running and how t
 2. Install all dependencies. To do so, in your terminal enter **`npm install`**
 
 ### Run and test locally
-Explains how to **run** and **stop** server.
+Explains how to **start** and **stop** server.
 * To  *___start___*  the server, in your terminal (*you should be on root directory*) type **`nodemon .`**
 * To  *__stop__*  the server, press **`ctrl`** + **`c`**
 
