@@ -9,7 +9,7 @@ What thing(s) you need to install
 * NPM (node package manager)
 
 ### Installing
-A step by steps guide to get a development environment up and running and how to install them
+A step by step guide to get a development environment up and running and how to install them
 1. Download and install [Node.js](https://nodejs.org/en/)
 2. Install all dependencies. To do so, in your terminal enter **`npm install`**
 
