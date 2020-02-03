@@ -8,6 +8,7 @@ const path = require('path');
 const passport = require('passport');
 const favicon = require('serve-favicon');
 const cors = require('cors');
+const socket = require('socket.io');
 
 const app = express();
 
@@ -53,4 +54,13 @@ app.use(function(req, res) {
     res.status(404).render('404');
 });
 
-app.listen(3000, () => console.log('Server started'));
+const serverInstance = app.listen(3000, () => console.log('Server started'));
+
+const io = socket(serverInstance);
+
+io.on('connect', socket => {
+    socket.emit('msgFromServer', { data: 'Hello from Server! ' });
+    socket.on('msgToServer', msg => {
+        console.log(msg);
+    })
+})
