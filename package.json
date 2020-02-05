@@ -7,7 +7,7 @@
     "start": "nodemon ."
   },
   "author": "obet",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.2"
   },
